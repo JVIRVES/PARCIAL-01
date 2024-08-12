@@ -24,47 +24,6 @@ public class Tarea {
 
     }
 
-    /*public String getTituloTarea() {
-        return tituloTarea;
-    }
-
-    public String setTituloTarea(String tituloTarea) {
-        this.tituloTarea = tituloTarea;
-        return tituloTarea;
-    }
-
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
-    public String getFechaLimite() {
-        return fechaLimite;
-    }
-
-    public void setFechaLimite(String fechaLimite) {
-        this.fechaLimite = fechaLimite;
-    }
-
-    public String getPrioridad() {
-        return prioridad;
-    }
-
-    public void setPrioridad(String prioridad) {
-        this.prioridad = prioridad;
-    }
-
-    public String getEstado() {
-        return estado;
-    }
-
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }*/
-
 
     public String getTituloTarea() {
         return tituloTarea;

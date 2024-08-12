@@ -40,7 +40,7 @@ public class Main {
             System.out.println("\n Seleccione una opcion: ");
 
             System.out.println("\n 1) Usuario 1 \n 2) Usuario 2 \n 3) Usuario 3 \n 4) Salir de la gestion");
-            String OPU = sc.nextLine();
+
 
             if (OPU.equals("1")) {
 
@@ -84,13 +84,13 @@ public class Main {
         System.out.println("\nHola: "+ usu3.getNombreUsuario());
 
         //Listas
-        List<String> lista = new ArrayList<String>();
-        lista.add(proy2.getNombreProyecto()+ proy2.getDescripcionProyecto());
-        lista.add(proy.getNombreProyecto()+ proy.getDescripcionProyecto());
-        lista.add(proy3.getNombreProyecto()+ proy3.getDescripcionProyecto() + proy3.getFechaInicio()+ proy3.getFechaFin());
+        List<String> list = new ArrayList<String>();
+        list.add(proy2.getNombreProyecto()+ proy2.getDescripcionProyecto());
+        list.add(proy.getNombreProyecto()+ proy.getDescripcionProyecto());
+        list.add(proy3.getNombreProyecto()+ proy3.getDescripcionProyecto() + proy3.getFechaInicio()+ proy3.getFechaFin());
 
 
-        for (String listas : lista){
+        for (String listas : list){
 
             System.out.println(listas);
         }
